@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: cornflowerblue;
+    color:white;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+}
+.containor{
+
+    place-self: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 50%;
+    width: 40%;
+}
+.display{
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    font-size:40px;
+    height: 10%;
+    border: 5px solid black;
+    background: transparent;
+}
+input{
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    width: 98.0%;
+}
+
+.num{
+
+    display:inline;
+    height:15vmin;
+    width:15vmin;
+    flex-wrap: wrap;
+    margin:1.5px;
+    margin-left: 1px;
+    margin-inline-start: 10px;
+    font-size:35px;
+    font-weight: 900;
+    border: none;
+    border-radius: 30px;
+    background-color: orangered;
+}
+#sing{
+    height:12vmin;
+    width:12vmin;
+    font-size: 30px;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 10px;
+    margin-inline-start: 5px;
+    color: black;
+    background-color: orange;
+}
